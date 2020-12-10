@@ -1,13 +1,13 @@
 import requests
 
-sheet_id = 1nshYGWLb-YrsiQIjRWJpoa6qAOi2Qra4xZ2ri1t3Osg
+sheet_id = "1nshYGWLb-YrsiQIjRWJpoa6qAOi2Qra4xZ2ri1t3Osg"
 url_pattern = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid="
 
 files = {
     "0": "scores.csv",
     "1000391055": "games.csv",
     "500264802": "rounds.csv",
-    "429667429": "continent.csv"
+    "429667429": "continents.csv"
 }
 
 for index, name in files.items():

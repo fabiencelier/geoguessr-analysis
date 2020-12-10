@@ -1,0 +1,2 @@
+url_pattern: https://hub.gke2.mybinder.org${{ env.JUPYTERHUB_SERVICE_PREFIX }}proxy/{port}/
+metadata_db: metadata

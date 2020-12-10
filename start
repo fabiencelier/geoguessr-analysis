@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir data
 python download.py
 
 exec "$@"

@@ -1,2 +1,5 @@
-# data
+# data files
 data/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
