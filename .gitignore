@@ -3,3 +3,6 @@ data/
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
+
+# metadata
+metadata/metadata.trace.db
