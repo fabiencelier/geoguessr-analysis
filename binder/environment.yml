@@ -3,7 +3,7 @@ channels:
   - https://conda.atoti.io
   - conda-forge
 dependencies:
-  - atoti
+  - atoti>=0.5.1
   - atoti-jupyterlab
   - openjdk
   - jupyterlab
